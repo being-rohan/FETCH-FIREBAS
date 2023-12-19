@@ -21,7 +21,6 @@ const onDelete = (ele) => {
     let deleteurl = `${posturl}/posts/${deleteid}.json`;
     cl(deleteurl)
 
-    // loader.classList.remove('d-none')
     Swal.fire({
         title: "Are you sure?",
         text: "You won't be able to revert this!",
@@ -40,7 +39,7 @@ const onDelete = (ele) => {
             })
                 .then((res) => {
 
-                    // loader.classList.add('d-none')
+                  
                     return res.json();
                 })
                 .then(res => {
