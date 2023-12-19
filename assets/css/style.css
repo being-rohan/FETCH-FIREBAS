@@ -1,0 +1,112 @@
+.body {
+
+
+    /* height: 100%; */
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+.body,.card  {
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+
+
+
+.center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(75, 75, 250, 0.3);
+  border-radius: 3px;
+}
+
+.h1 {
+    /* background-image: linear-gradient(90deg, rgba(67, 67, 67,0.1) 0%, rgb(0, 0, 0, 0.1)); */
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+/* /* x
+.card{
+    background-image: linear-gradient(to left, #DECBA4, rgb(62, 81, 81,0.5));
+    color: white; */
+/* } */
+
+.card {
+    color:black;
+    font-size: 20px;
+    /* background-image: linear-gradient(to left, #DECBA4, #3E5151); */
+
+}
+
+div#card {
+    display: flex;
+    flex-direction: column-reverse;
+    
+    
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .background ,.card{   
+ background: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg) center/cover no-repeat;
+ width: 100%;
+ height: 100%;
+ margin-bottom: 4px;
+} */
+.cl2 {
+    color: black;
+    font-size: medium;
+}
+.cl{
+    color: black;
+    font-size: medium;
+}
+
+
+
